@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.circleContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:  flex-start;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 3px 5px 6px 0 #bfbfbf;
+  cursor: pointer;
+}
+
+.circle:hover {
+  filter: opacity(25%);
+}
+
+h2 {
+  width: 250px;
+  margin: auto;
+  border:2px black solid;
+  margin-bottom: 20px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+}
